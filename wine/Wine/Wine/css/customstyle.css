@@ -1,0 +1,65 @@
+﻿* {
+   /* background-color: mediumaquamarine;*/
+}
+
+{
+    margin: 0;
+    padding: 0;
+}
+/*------Navigation------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+   
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 40px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    
+}
+
+    .navbar-nav li a {
+        float: right;
+        text-align: left;
+        
+    }
+
+#nav-bar ul li a:hover {
+    color: lightseagreen;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #581cee;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#slider {
+    width: 100%;
+}
+
+/*------Footer-------*/
+#footer {
+    background: lightblue;
+    color: lightseagreen;
+    padding: 24px;
+}
+
+.fa-american-sign-language-interpreting {
+    margin: 28px;
+    color: lightseagreen;
+}
